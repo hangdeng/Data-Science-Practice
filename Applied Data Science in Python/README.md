@@ -4,8 +4,8 @@
 
 4- Guide for Applied Text Mining in Python
 
-[Text mining: regular expression operations](https://docs.python.org/3/library/re.html)
+-[Text mining: regular expression operations](https://docs.python.org/3/library/re.html)
 
-[ldamodel in gensim](https://radimrehurek.com/gensim/models/ldamodel.html)
+-[ldamodel in gensim](https://radimrehurek.com/gensim/models/ldamodel.html)
 
 5- Applied Social Network Analysis in Python
