@@ -1,6 +1,6 @@
 3- Guide for Applied ML in Python
 
-[Easy guide KNN](https://kevinzakka.github.io/2016/07/13/k-nearest-neighbor/)
+- [Easy guide KNN](https://kevinzakka.github.io/2016/07/13/k-nearest-neighbor/)
 
 4- Guide for Applied Text Mining in Python
 
