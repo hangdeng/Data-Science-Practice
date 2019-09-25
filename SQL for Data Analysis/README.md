@@ -1,6 +1,6 @@
 ### SQL for Data Analysis
 
-#### Basic SQL operations
+#### 1 Basic SQL operations
 
 `SELECT (*)`: `*` means select all columns. Use `AS` to calculate a new column from existing columns (e.g. `SELECT c/(a+b) AS new_name`)
 
@@ -17,3 +17,4 @@
 
 `LIMIT`: only display a number of rows, for example, `LIMIT 10` only display first 10 rows
 
+#### 2
