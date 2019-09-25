@@ -17,4 +17,6 @@
 
 `LIMIT`: only display a number of rows, for example, `LIMIT 10` only display first 10 rows
 
-#### 2
+#### 2 SQL joins
+
+
