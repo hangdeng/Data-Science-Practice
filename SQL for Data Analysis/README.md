@@ -1,2 +1,3 @@
 #### SQL for Data Analysis
-Practices SELECT (*), FROM, ORDER BY (DESC), LIMIT
+'SELECT (*)': * means select all columns 
+FROM, ORDER BY (DESC), LIMIT
