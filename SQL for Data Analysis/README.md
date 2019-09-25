@@ -9,7 +9,7 @@
 `ORDER BY`: order by column name, default is ascending, if not using `DESC` 
 
 `WHERE`:
-  - use where to select data under condition (e.g. `>=`, `>`, `<=`, `<`, `=`, `!=`). 
+  - use `WHERE` to select data under condition (e.g. `>=`, `>`, `<=`, `<`, `=`, `!=`). 
   - `BETWEEN` and `AND` can be used in `WHERE` for certain condition (e.g. `WHERE columnA>=a and columnB<=b`, `WHERE columnA BETWEEN a_1 AND a_2`).
   - `OR`: `OR` is used to select any row which has a column value match either sub-condition of the condition.
   - `LIKE` and `NOT LIKE` can be used to select similar names in `WHERE`: `WHERE name LIKE 'C%'` means any name starting with letter 'C' is selected. `WHERE name NOT LIKE '%s'` means any name ending with 's' is not selected. `AND` can be used for multiple conditions. `WHERE name LIKE '%as%'` means any name containing 'as' is selected. 
