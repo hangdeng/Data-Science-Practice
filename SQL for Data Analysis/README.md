@@ -19,4 +19,5 @@
 
 #### 2 SQL joins
 
-
+`JOIN`: `JOIN` is the inner join by default. Venn diagram can be used for a better view. `LEFT JOIN` keeps everything in the left outer circle and only keep values in the inner circle once. `RIGHT JOIN` is similar to `LEFT JOIN`. `OUTER JOIN` joins everything but only keep the values in the inner circle once.
+`SELECT DISTINCT`: `SELECT DISTINCT` narrows down the results to unique values. For example, there might be multiple rows with the same value, `SELECT DISTINCT` keep the same value only once. 
