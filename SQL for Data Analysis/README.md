@@ -17,9 +17,11 @@
 
 `LIMIT`: only display a number of rows, for example, `LIMIT 10` only display first 10 rows
 
-#### 2 SQL joins
+#### 2 SQL Joins
 
 `JOIN`: `JOIN` is the inner join by default. Venn diagram can be used for a better view. `LEFT JOIN` keeps everything in the left outer circle and only keep values in the inner circle once. `RIGHT JOIN` is similar to `LEFT JOIN`. `OUTER JOIN` joins everything but only keep the values in the inner circle once.
 `SELECT DISTINCT`: `SELECT DISTINCT` narrows down the results to unique values. For example, there might be multiple rows with the same value, `SELECT DISTINCT` keep the same value only once. 
  
  **Primary Key vs. Foreign Key**: A primary key is the unique column in a particular table. It is usually the first column in the table. A     foreign key is one column in a table which is a primary key in another table.
+
+#### 3 SQL Aggregations
