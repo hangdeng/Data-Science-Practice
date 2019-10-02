@@ -1,5 +1,7 @@
 ### SQL for Data Analysis
 
+Summary by [hangdeng](https://www.linkedin.com/in/hangdeng?trk=public_profile_browsemap_mini-profile_title) for a quick review.
+
 #### 1 Basic SQL operations
 
 `SELECT (*)`: `*` means select all columns. Use `AS` to calculate a new column from existing columns (e.g. `SELECT c/(a+b) AS new_name`)
