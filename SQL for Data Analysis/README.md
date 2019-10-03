@@ -16,7 +16,7 @@
   - `OR`: `OR` is used to select any row which has a column value match either sub-condition of the condition.
   - `LIKE` and `NOT LIKE` can be used to select similar names in `WHERE`: `WHERE name LIKE 'C%'` means any name starting with letter 'C' is selected. `WHERE name NOT LIKE '%s'` means any name ending with 's' is not selected. `% S%` means to skip the first word and find any last name starting with S. `AND` can be used for multiple conditions. `WHERE name LIKE '%as%'` means any name containing 'as' is selected. 
   - `IN`: Select column values within a range or is exactly any of several selected values (e.g. `WHERE name_c IN ('name_c1','name_c2')`).
-  - `IS NULL` or `IS NOT NULL': uses to select null values or not null values from the data.
+  - `IS NULL` or `IS NOT NULL`: uses to select null values or not null values from the data.
   
 `LIMIT`: only display a number of rows, for example, `LIMIT 10` only display first 10 rows
 
