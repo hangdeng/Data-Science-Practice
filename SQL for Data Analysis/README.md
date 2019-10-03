@@ -27,3 +27,6 @@
  **Primary Key vs. Foreign Key**: A primary key is the unique column in a particular table. It is usually the first column in the table. A     foreign key is one column in a table which is a primary key in another table.
 
 #### 3 SQL Aggregations
+
+`GROUP BY`:
+  - use `HAVING` instead of `WHERE` for subset condition after aggregations.
