@@ -28,5 +28,11 @@
 
 #### 3 SQL Aggregations
 
+`SUM`, `MIN`, `MAX`, `AVG` etc.: use as indicated.
+
 `GROUP BY`:
   - use `HAVING` instead of `WHERE` for subset condition after aggregations.
+
+`CASE`: uses after `SELECT`. For example, `SELECT CASE WHEN a>100 THEN 'name_a' WHEN b>50 THEN 'name_b' ELSE 'name_c' END AS column_name`
+
+#### SQL Subqueries & Temporary Tables
