@@ -28,7 +28,7 @@
 
 #### 3 SQL Aggregations
 
-`SUM`, `MIN`, `MAX`, `AVG` etc.: use as indicated.
+`SUM`, `MIN`, `MAX`, `AVG`, `COUNT`, etc.: use as indicated.
 
 `GROUP BY`:
   - use `HAVING` instead of `WHERE` for subset condition after aggregations.
