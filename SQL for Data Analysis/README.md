@@ -46,9 +46,16 @@ WITH a AS (
        SELECT *
        FROM table1
        WHERE DATE_PART('year', table1.date) BETWEEN '2001' AND '2018')
-SELECT a.name, COUNT(a.item)
+     b AS (
+       SELECT *
+       FROM table2
+       WHERE table2.qty >= 1000)
+       
+SELECT a.name, COUNT(a.item), SUM(b.qty)
 FROM a
-GROUP BY a.name
+JOIN b
+ON a.id = b.a_id
+GROUP BY 1
 ```
 
 #### 5 SQL Data Cleaning
