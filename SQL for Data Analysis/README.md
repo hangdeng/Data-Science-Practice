@@ -40,4 +40,15 @@
 
 #### 4 SQL Subqueries & Temporary Tables
 
+`WITH`: `WITH` is used to create temporary tables. Further analysis can simply use the temporary tables to save time. For example,
+```
+WITH a AS (
+       SELECT *
+       FROM table1
+       WHERE DATE_PART('year', table1.date) BETWEEN '2001' AND '2018')
+SELECT a.name, COUNT(a.item)
+FROM a
+GROUP BY a.name
+```
+
 #### 5 SQL Data Cleaning
