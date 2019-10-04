@@ -39,3 +39,5 @@
 `DATE_PART` and `DATE_TRUNC`: these two functions are used for using a specific part of or truncating dates to for further analysis. For example, `DATE_PART('year', data.date)` with `GROUP_BY data.date` groups date with the same year. `DATE_TRUNC('day', data.date)` only leaves YYYY-MM-DD and replace the rest (e.g. hh:mm:ss) with the default value (i.e. 00:00:00).
 
 #### 4 SQL Subqueries & Temporary Tables
+
+#### SQL Data Cleaning
