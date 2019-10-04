@@ -56,6 +56,7 @@ FROM a
 JOIN b
 ON a.id = b.a_id
 GROUP BY 1
+ORDER BY 2 DESC;
 ```
 
 #### 5 SQL Data Cleaning
