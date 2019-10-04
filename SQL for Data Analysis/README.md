@@ -40,4 +40,4 @@
 
 #### 4 SQL Subqueries & Temporary Tables
 
-#### SQL Data Cleaning
+#### 5 SQL Data Cleaning
