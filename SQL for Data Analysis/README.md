@@ -40,7 +40,7 @@
 
 #### 4 SQL Subqueries & Temporary Tables
 
-`WITH`: `WITH` is used to create temporary tables. Further analysis can simply use the temporary tables to save time. For example,
+`WITH`: `WITH` is used to create temporary tables. Further analysis can simply use the temporary tables to save time. For example, the code with `WITH` can be written as
 ```
 WITH a AS (
        SELECT *
