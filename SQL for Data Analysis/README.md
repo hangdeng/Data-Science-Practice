@@ -60,3 +60,11 @@ ORDER BY 2 DESC;
 ```
 
 #### 5 SQL Data Cleaning
+
+`LEFT`: `LEFT` select characters in a column from left. For example, the code below select the left 2 characters in the name column:
+```
+SELECT LEFT(a.name, 2)
+FROM accounts a
+```
+`RIGHT`: `RIGHT` is similar to `LEFT` but start to select from the right.
+`LENGTH`: `LENGTH` count the length of each element in one column.
