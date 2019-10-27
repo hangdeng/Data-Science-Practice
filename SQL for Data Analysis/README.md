@@ -66,5 +66,17 @@ ORDER BY 2 DESC;
 SELECT LEFT(a.name, 2)
 FROM accounts a
 ```
+
 `RIGHT`: `RIGHT` is similar to `LEFT` but start to select from the right.
+
 `LENGTH`: `LENGTH` count the length of each element in one column.
+
+`POSITION` and `STRPOS`: These two functions are quite similar but the syntax is a little different (e.g. `POSITION(',', a.name)` and `STRPOS(a.name, ',')`)
+
+`LOWER` and `UPPER`: make characters in the column all lower or uppercase.
+
+`CONCAT` and `||`: concatenate characters in two or more columns.
+
+`CAST`:
+
+`COALESCE`:
