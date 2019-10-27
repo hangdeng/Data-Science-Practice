@@ -75,8 +75,12 @@ FROM accounts a
 
 `LOWER` and `UPPER`: make characters in the column all lower or uppercase.
 
-`CONCAT` and `||`: concatenate characters in two or more columns.
+`CONCAT` and `||`: This function concatenates characters in two or more columns (e.g. `CONCAT(a.first_name, '.', a.last_name, '@', a.company_name, '.com') email_address` or `a.first_name || '.' || a.last_name || '@' || a.company_name || '.com' email_address`).
 
-`CAST`:
+`CAST` and `::`: This function changes the data type of one columne to another (e.g. `CAST(date_column, DATE)` or `date_column::DATE`).
 
 `COALESCE`:
+
+#### 6 SQL Window Functions
+
+
