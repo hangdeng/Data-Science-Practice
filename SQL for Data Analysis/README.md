@@ -77,9 +77,9 @@ FROM accounts a
 
 `CONCAT` and `||`: This function concatenates characters in two or more columns (e.g. `CONCAT(a.first_name, '.', a.last_name, '@', a.company_name, '.com') email_address` or `a.first_name || '.' || a.last_name || '@' || a.company_name || '.com' email_address`).
 
-`CAST` and `::`: This function changes the data type of one columne to another (e.g. `CAST(date_column, DATE)` or `date_column::DATE`).
+`CAST` and `::`: This function changes the data type of one columne to another (e.g. `CAST(date_column AS DATE)` or `date_column::DATE`).
 
-`COALESCE`:
+`COALESCE`: For example, `COALESCE(a, b) name` returns a column 'name' that assigns b if the value in the row is NULL.
 
 #### 6 SQL Window Functions
 
