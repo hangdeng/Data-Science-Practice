@@ -79,7 +79,7 @@ FROM accounts a
 
 `CAST` and `::`: This function changes the data type of one columne to another (e.g. `CAST(date_column AS DATE)` or `date_column::DATE`).
 
-`COALESCE`: For example, `COALESCE(a, b) name` returns a column 'name' that assigns b if the value in the row is NULL.
+`COALESCE`: For example, a and b are columns. `COALESCE(a, b) name` returns a column 'name' that assigns b if the value in the row of column a is NULL.
 
 #### 6 SQL Window Functions
 
