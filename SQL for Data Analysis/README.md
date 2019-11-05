@@ -83,9 +83,9 @@ FROM accounts a
 
 #### 6 SQL Window Functions
 `OVER` and `PARTITION BY`: The two functions are keys to window functions. Window functions are similar with aggregate functions but window functions keep separate entities in their rows comparing to aggregate functions that group entities in one row.
-For example,
+For example, the SQL code for calculating running total
 ```
-SELECT accounts.id, COUNT(accounts.id) OVER (ORDER BY accounts.occurred_at)
-FORM accounts
+SELECT standard_amt_usd, SUM(standard_amt_usd) OVER (ORDER BY o.occurred_at) AS running_total
+FORM orders o
 ```
 
