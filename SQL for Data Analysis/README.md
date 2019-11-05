@@ -79,8 +79,13 @@ FROM accounts a
 
 `CAST` and `::`: This function changes the data type of one columne to another (e.g. `CAST(date_column AS DATE)` or `date_column::DATE`).
 
-`COALESCE`: For example, a and b are columns. `COALESCE(a, b) name` returns a column 'name' that assigns b if the value in the row of column a is NULL.
+`COALESCE`: For example, a and b are columns. `COALESCE(a, b) name` returns a column 'name' that assigns value b if the value in the row of column a is NULL. Otherwise, the function assigns value a to the column 'name' if the row of column a is not NULL. The function evaluates from first expression (i.e. a in the example)  to the last expression (i.e. b in the example) in order.
 
 #### 6 SQL Window Functions
-
+`OVER` and `PARTITION BY`: The two functions are keys to window functions. Window functions are similar with aggregate functions but window functions keep separate entities in their rows comparing to aggregate functions that group entities in one row.
+For example,
+```
+SELECT accounts.id, COUNT(accounts.id) OVER (ORDER BY accounts.occurred_at)
+FORM accounts
+```
 
