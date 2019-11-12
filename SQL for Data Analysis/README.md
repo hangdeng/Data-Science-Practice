@@ -108,4 +108,6 @@ standard_sum - LAG (standard_sum) OVER ( ORDER BY standard_sum) AS lag_differenc
 ```
 compare the difference between the current row and the previous row.
 
+`NTILE`:
+
 #### 7 SQL Advanced JOINs & Performance Tuning
