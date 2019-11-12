@@ -88,7 +88,9 @@ For example, the SQL code for calculating running total
 SELECT standard_amt_usd, SUM(standard_amt_usd) OVER (ORDER BY o.occurred_at) AS running_total
 FORM orders o
 ```
+
 In addition, if `PARTITION BY` is applied, the result table separately display data by different groups of accounts_id keys, 
+
 ```
 SELECT accounts_id, standard_amt_usd, SUM(standard_amt_usd) OVER (PARTITION BY accounts_id, ORDER BY occurred_at) AS running_total
 FORM orders 
@@ -96,5 +98,14 @@ FORM orders
 
 `RANK()` and `DENSE_RANK()`: `RANK()` ranks the order from the smallest to the largest (or from the largest to the smallest if `DESC` is included). If two values are the same, for example, `RANK` on ('a', 'a', 'b', 'c', 'd') returns 1, 1, 3, 4, 5. However, `DENSE-RANK` returns 1, 1, 2, 3, 4. 
 
-`LAG` and `LEAD`:
+`LAG` and `LEAD`: `LAG(b) AS a` returns a new column a which values are the values of b shift one row backward/upward (values of the previous rows). `LEAD(b) AS a` is similar but returns the values of b shift one row forward/downward (values of the following rows).
+For example,
+```
+LEAD (standard_sum) OVER ( ORDER BY standard_sum) - standard_sum AS lead_difference
+```
+```
+standard_sum - LAG (standard_sum) OVER ( ORDER BY standard_sum) -  AS lag_difference
+```
+compare the difference between the current row and the previous row.
+
 #### 7 SQL Advanced JOINs & Performance Tuning
