@@ -104,7 +104,7 @@ For example,
 LEAD (standard_sum) OVER ( ORDER BY standard_sum) - standard_sum AS lead_difference
 ```
 ```
-standard_sum - LAG (standard_sum) OVER ( ORDER BY standard_sum) -  AS lag_difference
+standard_sum - LAG (standard_sum) OVER ( ORDER BY standard_sum) AS lag_difference
 ```
 compare the difference between the current row and the previous row.
 
