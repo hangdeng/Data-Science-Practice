@@ -108,6 +108,7 @@ standard_sum - LAG (standard_sum) OVER ( ORDER BY standard_sum) AS lag_differenc
 ```
 compare the difference between the current row and the previous row.
 
-`NTILE`:
+`NTILE`: `NTILE()` returns a column assign the values of a specific column to their percentiles. For example, `NTILE(4)` follows `SELECT a` returns a column that specifies quartile # of each value of column a. `NTILE()` can be used with the window functions.
+
 
 #### 7 SQL Advanced JOINs & Performance Tuning
