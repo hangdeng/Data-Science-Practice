@@ -112,3 +112,7 @@ compare the difference between the current row and the previous row.
 
 
 #### 7 SQL Advanced JOINs & Performance Tuning
+`LIMIT` and `OFFSET`: For example, `LIMIT 10` only 10 rows will be returned. `OFFSET 10` skip 10 rows and start returning values from the 11th row. `OFFSET 0` doesn't skip any row.
+
+
+-Tips for enhancing performance:
