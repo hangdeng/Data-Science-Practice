@@ -120,4 +120,5 @@ compare the difference between the current row and the previous row.
   - `RIGHT JOIN` includes unmatched rows from the right table and matched rows between two tables. 
   - `FULL JOIN` is the same as `FULL OUTER JOIN` which includes unmatched rows from both tables and matched rows from both tables. 
 
-- Tips for enhancing performance:
+
+##### Tips for enhancing performance:
