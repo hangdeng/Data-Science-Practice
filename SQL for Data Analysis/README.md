@@ -131,6 +131,13 @@ AND table_a.name < table_b.name
 
 Self JOINs: Self JOINs with inequal JOINs is very common, for example,
 ```
+SELECT *
+FROM table_a a1
+LEFT JOIN table_a a2
+ON a1.id = a2.id
+AND a1.occurred_at > a2.occurred_at
+AND a1.occurred_at < a2.occurred_at + INTERVAL '28 days'
+ORDER BY a1.occurred_at
 ```
 
 ##### Tips for enhancing performance:
