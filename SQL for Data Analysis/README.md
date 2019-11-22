@@ -113,6 +113,6 @@ compare the difference between the current row and the previous row.
 
 #### 7 SQL Advanced JOINs & Performance Tuning
 `LIMIT` and `OFFSET`: For example, `LIMIT 10` only 10 rows will be returned. `OFFSET 10` skip 10 rows and start returning values from the 11th row. `OFFSET 0` doesn't skip any row.
-
+`INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `FULL OUTER JOIN`, `FULL JOIN`: `INNER JOIN` joins matched rows between two tables. `LEFT JOIN` includes unmatched rows from the left table and matched rows between two tables. `RIGHT JOIN` includes unmatched rows from the right table and matched rows between two tables. `FULL JOIN` is the same as `FULL OUTER JOIN` which includes unmatched rows from both tables and matched rows from both tables. 
 
 - Tips for enhancing performance:
