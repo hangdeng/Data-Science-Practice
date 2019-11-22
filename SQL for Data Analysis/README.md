@@ -129,5 +129,11 @@ ON table_a.id = table_b.id
 AND table_a.name < table_b.name
 ```
 
-Self JOIN: 
+Self JOINs: Self JOINs with inequal JOINs is very common, for example,
+```
+```
+
 ##### Tips for enhancing performance:
+Performance can be affected by table size, number of joins, and aggregations in SQL analysis.
+
+  - joining subqueries can improve performance.
